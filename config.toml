@@ -1,0 +1,42 @@
+baseUrl = "https://mhay10.github.io"
+title = "Maxwell Hay"
+theme = "hugo-coder"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+[markup.highlight]
+style = "github-dark"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Maxwell Hay"
+info = "Smashing my head against the keyboard and hoping something cool will happen."
+description = "Maxwell Hay's website"
+keywords = ["blog", "programming", "personal"]
+avatarurl = "avatar.png"
+
+favicon_32 = "favicon.png"
+favicon_16 = "favicon.png"
+
+colorScheme = "auto"
+hideColorSchemeToggle = false
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/mhay10/"
+
+# Menu links
+[[menu.main]]
+name = "Projects"
+url = "projects/"
+weight = 1
+
+[[menu.main]]
+name = "Resume"
+url = "resume/"
+weight = 2
