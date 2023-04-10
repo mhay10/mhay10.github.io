@@ -1,16 +1,19 @@
-baseUrl = "https://mhay10.github.io"
+# Base config
+baseUrl = "mhay10.github.io"
 title = "Maxwell Hay"
 theme = "hugo-coder"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 publishDir = "docs"
 
+# Render config
 [markup.highlight]
 style = "github-dark"
 
 [markup.goldmark.renderer]
 unsafe = true
 
+# Metadata
 [params]
 author = "Maxwell Hay"
 info = "Smashing my head against the keyboard and hoping something cool will happen."
