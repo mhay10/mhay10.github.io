@@ -38,6 +38,6 @@ url = "projects/"
 weight = 1
 
 [[menu.main]]
-name = "Resume"
-url = "resume/"
+name = "Posts"
+url = "posts/"
 weight = 2
