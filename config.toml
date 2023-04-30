@@ -13,7 +13,7 @@ unsafe = true
 
 [params]
 author = "Maxwell Hay"
-info = "Abusing my keyboard, hoping something cool will happen."
+info = "Look around my projects and posts about programming<br>and other things I find interesting"
 description = "Maxwell Hay's website"
 keywords = ["blog", "programming", "personal"]
 avatarurl = "avatar.png"
